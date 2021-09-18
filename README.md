@@ -1,6 +1,13 @@
 # Amazon JP Review Simple Classification
 アマゾンのレビューの☆数をレビュー文から予測するシンプルなコード集です。  
 レビューを取得し、それをNaive BayesやNN、LSTM、BERTで分類予測を行います。  
+コンペで使うようなテクニックは含まれていません。単純にテキストをモデルに入れて訓練・予測するだけです。
+
+# ファイルの説明
+* collect_amazon_reviews.ipynb  
+  アマゾンのレビューデータを収集するスクリプト  
+* train_amazon_reviews_naive_bayes_and_tensorflow.ipynb  
+  レビューデータを各種アルゴリズムで分類するスクリプト  
 
 
 ### アマゾンのレビューのスクレイピングについて
